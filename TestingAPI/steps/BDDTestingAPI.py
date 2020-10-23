@@ -45,22 +45,22 @@ def setDOB(context):
     context.request_body['dob'] = '1997-07-05'
 
 
-@step('an email of "dixitgaurav97@gmail\.com"')
+@step('an email of "abcdef@gmail\.com"')
 def setEmail(context):
     """
     :type context: behave.runner.Context
     """
     print("setEmail")
-    context.request_body['email'] = 'dixitgaurav97@gmail.com'
+    context.request_body['email'] = 'abcdef@gmail.com'
 
 
-@step('a phone number of "\+918354801670"')
+@step('a phone number of "\+911234"')
 def setPhoneNumber(context):
     """
     :type context: behave.runner.Context
     """
     print("setPhoneNumber")
-    context.request_body['phone'] = "+918354801670"
+    context.request_body['phone'] = "+911234"
 
 
 @step('a website of "https://bit\.ly/IqT6zt"')
